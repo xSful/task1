@@ -32,9 +32,3 @@ class Rectangle(Shape):
 
     def area(self):
         return round(self.width * self.height, 2)
-
-t = Triangle(3, 4, 5) 
-print(t.is_rectangular())
-
-c = Circle(10)
-print(c.area())
