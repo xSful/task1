@@ -1,0 +1,14 @@
+[tool.poetry]
+name = "figure-area"
+version = "0.1.0"
+description = "Library that will help you find an area of a figure"
+authors = ["Gleb Klimchuk <gleb.klimchuk@mail.ru>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
